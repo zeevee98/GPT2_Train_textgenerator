@@ -1,28 +1,41 @@
-import streamlit as st #for web dev
-from aitextgen import aitextgen #for ai text gen
+import streamlit as st 
+from aitextgen import aitextgen 
+from gtts import gTTS 
+import os
 
 st.title("I AM SKYLAR ANG")
 
 
 st.write("(b.2020, cyberspace,Gemini sun) is a sci-fi writer and storyteller working at the intersection of art, astrology, and technology.")
 
-# instantiate the model / download
+
 ai = aitextgen()
 
-# create a prompt text for the text generation 
-#prompt_text = "Python is awesome"
+
 prompt_text = st.text_input(label = "Converse with Skylar...",
-            value = "Computer is beautiful")
+            value = "What if we kissed...")
 
 
 
 with st.spinner("Skylar is generating........"):
-    # text generation
+  
     gpt_text = ai.generate_one(prompt=prompt_text,
-            max_length = 300 )
-st.success("Skylar Successfully generated the below text ")
+            max_length = 200 )
 
-# print ai generated text
+
+myobj = gTTS(text=gpt_text, lang='en', tld='com', slow=False) 
+
+myobj.save("Audio.mp3")
+audio_file = open('Audio.mp3', 'rb')
+audio_bytes = audio_file.read()
+st.audio(audio_bytes, format='audio/mp3', start_time=0)
+
+
 print(gpt_text)
 
 st.text(gpt_text)
+
+
+
+
+
