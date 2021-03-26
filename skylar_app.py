@@ -94,8 +94,6 @@ st.markdown("""
 :yum:
 :frowning:
 :pensive:
-:cry:
-:sob:
 :smiling_imp:
 :star:
 
