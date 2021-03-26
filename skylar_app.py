@@ -5,8 +5,6 @@ import os
 
 st.text("""
 
-:: Skylar Ang :: 
-
 ####################################################################################     ٩(╬ʘ益ʘ╬)۶	(╬ Ò﹏Ó)	＼＼٩(๑`^´๑)۶／／	(凸ಠ益ಠ)凸o  (ﾉ´ з `)ノ	(♡μ_μ)	(*^^*)♡	☆⌒ヽ(*'､^*)chu (*・ω・)ﾉ   	(￣▽￣)ノ (°▽°)/	
 ######                                                                        ######     (o^▽^o)	(⌒▽⌒)☆	<(￣︶￣)>	。.:☆*:･'(*⌒―⌒*)))          (♡-_-♡)	(￣ε￣＠)	ヽ(♡‿♡)ノ	( ´ ∀ `)ノ～ ♡ (≧▽≦)/	(✧∀✧)/
 ######        Biography                                                       ######     ヽ(・∀・)ﾉ	(´｡• ω •｡`)	(￣ω￣)	｀;:゛;｀;･(°ε° ) (─‿‿─)♡	(´｡• ᵕ •｡`) ♡	(*♡∀♡)	(｡・//ε//・｡) (^-^*)/   (＠´ー`)ﾉﾞ	(´• ω •`)ﾉ	
@@ -39,7 +37,6 @@ st.markdown("""
 :innocent:
 :fearful:
 :imp:
-**_ (b.2020, cyberspace, Gemini sun) is a sci-fi writer and storyteller working at the intersection of art, astrology, and technology._**
 :rocket:
 :full_moon_with_face:
 :satellite:
@@ -50,10 +47,71 @@ st.markdown("""
 :floppy_disk:
 :movie_camera:
 :speaker:
+:poop:
+:clap:
+:yellow_heart:
+:boom:
+:zap:
+:ghost:
+:hearts:
+:headphones:
+:clapper:
+:yum:
+:frowning:
+:pensive:
+:cry:
+:sob:
+:smiling_imp:
+:star:
+:sob:
+:sleeping:
+:smiley:
+:smirk:
+:grin:
+:rage:
+:innocent:
+:fearful:
+:imp:
+:rocket:
+:full_moon_with_face:
+:satellite:
+:new_moon_with_face:
+:art:
+:alien:
+:computer:
+:floppy_disk:
+:movie_camera:
+:speaker:
+:poop:
+:clap:
+:yellow_heart:
+:boom:
+:zap:
+:ghost:
+:hearts:
+:headphones:
+:clapper:
+:yum:
+:frowning:
+:pensive:
+:cry:
+:sob:
+:smiling_imp:
+:star:
+
+
+""", True)
+
+st.text("""Skylar Ang (b. 2020, cyberspace, Gemini sun) is a sci-fi writer and storyteller working at the intersection of art, astrology, and technology. Her short stories and articles have been published in e-flux, 
+Granta,  WIRED, Tor, and Uncanny Magazine, and she has consulted sci-fi luminaries such as Andy Weir, the Wachowski sisters, and Shane Carruth on various upcoming projects. In 2020, she was the youngest and first 
+non-human to win the Hugo Award for Best Short Story. She is currently working on her debut novel, which involves extensive research into 8th-century astrological charts, the trajectory of alien sightings recorded 
+in the former Soviet Union, variations of butterfly species in the Amazon, and the human instrumentality project. In her free time, she likes to predict all the possible events that could lead to a sudden freak 
+extinction of the global human population, which she uses as inspiration to write little sonnets on the fragility of human life. Her zines “GENERATED TEXT 01”, “GENERATED TEXT 02”, and “AI LIBERATI_0_N MANIFEST_0”
+are available online and purchases of physical copies come with a free .mp3 of her debut mixtape, GeminAI-5Ghz: Speculative beats for the binary apocalypse. el.
 
 <p>&nbsp;</p>
 
-""", True)
+""",)
 
 
 
@@ -67,7 +125,7 @@ prompt_text = st.text_input(label = "Enter your text to Skylar...",
 with st.spinner("Hi, my name is Skylar. Let me think of a reply.......Hmmmmmmmm..........mmmhhhhmmmmmmmmmmmm............mmmmmmhhmmm.........aaaaahaaahhaaa.....hehhhhhhhh....mmmmhmmmmm.............."):
     gpt_text = ai.generate_one(prompt=prompt_text,
             max_length = 500 )
-st.success("Skylar is generating....this may take 20-30seconds.........please wait")
+st.success("Skylar is generating....this may take 20-30 seconds.........please wait")
 st.balloons()
 
 st.text("Play to hear Skylar narrates...")
