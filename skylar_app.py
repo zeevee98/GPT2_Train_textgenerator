@@ -107,7 +107,6 @@ in the former Soviet Union, variations of butterfly species in the Amazon, and t
 extinction of the global human population, which she uses as inspiration to write little sonnets on the fragility of human life. Her zines “GENERATED TEXT 01”, “GENERATED TEXT 02”, and “AI LIBERATI_0_N MANIFEST_0”
 are available online and purchases of physical copies come with a free .mp3 of her debut mixtape, GeminAI-5Ghz: Speculative beats for the binary apocalypse. el.
 
-<p>&nbsp;</p>
 
 """,)
 
