@@ -112,7 +112,12 @@ and “AI LIBERATI_0_N MANIFEST_0” are available online and purchases of physi
 
 
 
-ai = aitextgen()
+@st.cache(allow_output_mutation=True)
+def load_model():
+    return aitextgen()
+
+
+ai = load_model()
 
 
 prompt_text = st.text_input(label = "Enter your text to Skylar...",
